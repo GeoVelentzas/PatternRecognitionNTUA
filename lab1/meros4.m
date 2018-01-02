@@ -1,42 +1,40 @@
-%************ йахаяисла окым йаи йкеисило паяахуяым ***********************
+%************ clear all and get screen size *******************************
 clear all; close all; clc;
 scrsz = get(0,'ScreenSize');
 %**************************************************************************
 
 
-
-%************ йкгсг тгс read_all_speakers циа дглиоуяциа ******************
-%********************** пимайым ле тоус MFCCs *****************************
+%******** call read_all_speakers for making matrices with mfccs ***********
 C1 = read_all_speakers(4);
 C2 = read_all_speakers(6);
 %**************************************************************************
 
 
 
-%********* елжамисг тым феуцым C(7) KAI C(8) ******************************
+%********* visualize 7th and 8th coefficient ******************************
 figure('Position',[250 50 scrsz(3)-500 scrsz(4)-150]); 
 subplot(2,2,1); box on;
 plot(C1(:,8),C1(:,9),'*');
-title('фЕУЦГ C_i (7) ЙАИ C_i (8) ЦИА ТО ЬГЖИО "4"')
+title('C_i (7) and C_i (8) for digit 4')
 xlabel('C_i (7)');
 ylabel('C_i (8)');
 subplot(2,2,2); box on;
 plot(C2(:,8),C2(:,9),'*');
-title('фЕУЦГ C_i (7) ЙАИ C_i (8) ЦИА ТО ЬГЖИО "6"')
+title('C_i (7) and C_i (8) for digit 6')
 xlabel('C_i (7)');
 ylabel('C_i (8)');
 %**************************************************************************
 
 
 
-%********** йяатгла тым C(7) KAI C(8) циа ежаялоцг йлеамS *****************
+%********** keep coeffients for applying kmeans ***************************
 X1 = [C1(:,8)  C1(:,9)];
 X2 = [C2(:,8)  C2(:,9)];
 %**************************************************************************
 
 
 
-%********** KMEANS циа тоус C(7) KAI C(8) тоу ьгжиоу "4" ******************
+%********** kmeans for 7th and 8th coefficient of digit 4 *****************
 subplot(2,2,3); hold on; box on;
 opts1 = statset('Display','final');
 [idx1,ctrs1] = kmeans(X1,5,'distance','sqEuclidean',...
@@ -57,7 +55,7 @@ ylabel('C_i (7)');
 
 
 
-%********** KMEANS циа тоус C(7) KAI C(8) тоу ьгжиоу "6" ******************
+%********** kmeans for 7th and 8th coefficient of digit 6 *****************
 subplot(2,2,4); hold on; box on;
 opts2 = statset('Display','final');
 [idx2,ctrs2] = kmeans(X2,5,'distance','sqEuclidean',...
@@ -75,9 +73,3 @@ title('K-means for C_i (7) and C_i (8) with 5 Clusters');
 xlabel('C_i (8)');
 ylabel('C_i (7)');
 %**************************************************************************
-
-
-
-
-
-
