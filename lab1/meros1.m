@@ -143,7 +143,7 @@ lighting gouraud;
 xlabel('No of window')
 ylabel('Frequency (Hz)');
 zlabel('log_1_0 (abs(FFT))');
-title('Συνολικο φασμα ανα χρονικο παραθυρο')
+title('Spectrum for every window')
 
 subplot(1,2,2);
 surf(1:now ,f_lin ,(log10(E_hat(:,:)))');
@@ -155,7 +155,7 @@ lighting gouraud;
 xlabel('No of window')
 ylabel('Frequency (Hz)');
 zlabel('log_1_0 (Ε hat))');
-title('Συντελεστες Ενέργειας')
+title('Energy Coefficients')
 
 
 %% Computation of cepstrum in every window from matrix of ffts
