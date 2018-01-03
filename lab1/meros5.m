@@ -1,19 +1,16 @@
-%************ йахаяисла окым йаи йкеисило паяахуяым ***********************
+%************ clear all and get screen size  ******************************
 clear all; close all; clc;
 scrsz = get(0,'ScreenSize');
 %**************************************************************************
 
-
-%************ йкгсг тгс read_all_speakers циа дглиоуяциа ******************
-%********************** пимайым ле тоус MFCCs *****************************
-[C1,I1] = read_all_speakers(4);             %БКЕПЕ read_all_speakers
+%********** call read_all_speaker to make mfcc matrices *******************
+[C1,I1] = read_all_speakers(4);             %get read_all_speakers
 [C2,I2] = read_all_speakers(6);
 [C3,I3] = read_all_speakers(8);
 %**************************************************************************
 
 
-
-%********** Eлжамисг епикецлемым феуцым сумтекестым циа то "4" ************
+%********* some chosen pairs of coefficients for digit 4 ******************
 figure('Position',[0 0 scrsz(3) scrsz(4)]); 
 subplot(4,4,1);
 plot(C1(:,1),C1(:,2),'.'); title('0-1');
@@ -50,10 +47,8 @@ plot(C1(:,1),C1(:,11),'.'); title('0-10');
 %**************************************************************************
 
 
-
-%*******ежаялоцг йлеамS циа окоус тоус сумтекестес окым тым ***************
-%****************** ейжымгсеым тоу ьгжиоу "4"******************************
-%**************** йаи елжамисг тым апотекеслатым***************************
+%***** kmeans for all the coefficients for pronouncing digit 4 ************
+%******* from all speakers and visualization of results *******************
 K=5;                                        %don't change this!!!!
 figure('Position',[0 0 scrsz(3) scrsz(4)]); 
 opts1 = statset('Display','final');
@@ -189,30 +184,29 @@ plot(C1(idx1==5,1),C1(idx1==5,11),'c.','MarkerSize',12)
 plot(ctrs1(:,1),ctrs1(:,11),'kx','LineWidth',2)
 title('0-10');
 
-figure('Position',[0 0 scrsz(3) scrsz(4)]); %ЙИМГСГ ПКАИСИЫМ СЕ ТАНЕИР
+figure('Position',[0 0 scrsz(3) scrsz(4)]); %movement of windows
 subplot(4,4,1);
-plot(idx1(1:I1(1)));                        %1Г ЕЙЖЧМГСГ
+plot(idx1(1:I1(1)));                        %1st prounouncing
 ylim([-1 K+1]);
 for i=1:(length(I1)-1)
     subplot(4,4,i+1);
-    plot(idx1(I1(i)+1 : I1(i+1)));          %УПОКОИПЕР ЕЙЖЫМГСЕИР
+    plot(idx1(I1(i)+1 : I1(i+1)));          %other pronouncings
     ylim([-1 K+1]);
 end
 %**************************************************************************
 
 
 
-%*************** ежаялоцг KMEANS циа диажояеийа й *************************
-%******** йаи елжамисг йимгсгс тым пкаисиым сто выяо танеым ***************
+%**** kmeans for different K and visualization in class space *************
 clear idx1; clear opts1; clear ctrs1;
-K=8;                                        %АККАНТЕ ЦИА ДОЙИЛЕР
+K=8;                                        %you can change this
 opts1 = statset('Display','final');
 [idx1,ctrs1] = kmeans(C1,K,'distance','sqEuclidean',...
     'onlinephase','off','Replicates',20,'start','sample','Options',opts1);
 figure('Position',[0 0 scrsz(3) scrsz(4)]);  
 subplot(4,4,1);
-%idx1= filter([1 1 1]/3,1,idx1); %ОЛАКОПОИГСГ ЦИА ЕЛЖАМИСГ ЦЕМИЙОТЕЯГР ЛОЯЖГР
-plot(idx1(1:I1(1))); %1Г ЕЙЖЧМГСГ
+%idx1= filter([1 1 1]/3,1,idx1); %normalization
+plot(idx1(1:I1(1))); %1st pronouncing
 ylim([-1 K+1]);
 for i=1:(length(I1)-1)
     subplot(4,4,i+1);
@@ -224,7 +218,7 @@ end
 
 %% 
 
-%********** Eлжамисг епикецлемым феуцым сумтекестым циа то "6" ************
+%********** visualization of chosen pairs for digit 6 *********************
 figure('Position',[0 0 scrsz(3) scrsz(4)]); 
 subplot(4,4,1);
 plot(C2(:,1),C2(:,2),'.'); title('0-1');
@@ -262,9 +256,8 @@ plot(C2(:,1),C2(:,11),'.'); title('0-10');
 
 
 
-%*******ежаялоцг йлеамS циа окоус тоус сумтекестес окым тым ***************
-%****************** ейжымгсеым тоу ьгжиоу "6"******************************
-%**************** йаи елжамисг тым апотекеслатым***************************
+%***** kmeans for all the coefficients for pronouncing digit 6 ************
+%******* from all speakers and visualization of results *******************
 K=5;                                            %don't change this!!!
 figure('Position',[0 0 scrsz(3) scrsz(4)]); 
 opts2 = statset('Display','final');
@@ -400,33 +393,33 @@ plot(C2(idx2==5,1),C2(idx2==5,11),'c.','MarkerSize',12)
 plot(ctrs2(:,1),ctrs2(:,11),'kx','LineWidth',2)
 title('0-10');
 
-figure('Position',[0 0 scrsz(3) scrsz(4)]);     %ЙИМГСГ ПКАИСИЫМ СЕ ТАНЕИР
+figure('Position',[0 0 scrsz(3) scrsz(4)]);     %movement of windows
 subplot(4,4,1);
-plot(idx2(1:I2(1)));                            %1Г ЕЙЖЧМГСГ
+plot(idx2(1:I2(1)));                            %1st pronouncing
 ylim([-1 K+1]);
 for i=1:(length(I2)-1)
     subplot(4,4,i+1);
-    plot(idx2(I2(i)+1 : I2(i+1)));              %УПОКОИПЕР ЕЙЖЫМГСЕИР
+    plot(idx2(I2(i)+1 : I2(i+1)));              %others
     ylim([-1 K+1]);
 end
 %**************************************************************************
 
 
 
-%*************** ежаялоцг KMEANS циа диажояеийа й *************************
-%******** йаи елжамисг йимгсгс тым пкаисиым сто выяо танеым ***************
+%******** kmeans for different K and visualization of windows *************
+%*************************** in class space *******************************
 clear idx2; clear opts2; clear ctrs2;
-K=8;                                            %АККАНТЕ АУТО ЦИА ДОЙИЛЕР!!
+K=8;                                            %you can change this
 opts2 = statset('Display','final');
 [idx2,ctrs2] = kmeans(C2,K,'distance','sqEuclidean',...
     'onlinephase','off','Replicates',20,'start','sample','Options',opts2);
 figure('Position',[0 0 scrsz(3) scrsz(4)]);  
 subplot(4,4,1);
-plot(idx2(1:I2(1)));                            %1Г ЕЙЖЧМГСГ
+plot(idx2(1:I2(1)));                            %1st pronouncing
 ylim([-1 K+1]);
 for i=1:(length(I2)-1)
     subplot(4,4,i+1);
-    plot(idx2(I2(i)+1 : I2(i+1)));              %УПОКОИПЕР ЕЙЖЫМГСЕИР
+    plot(idx2(I2(i)+1 : I2(i+1)));              %others
     ylim([-1 K+1]);
 end
 %**************************************************************************
@@ -435,7 +428,7 @@ end
 %%
 
 
-%********** Eлжамисг епикецлемым феуцым сумтекестым циа то "8" ************
+%********** visualization of chosen pairs for digit 8 *********************
 figure('Position',[0 0 scrsz(3) scrsz(4)]); 
 subplot(4,4,1);
 plot(C3(:,1),C3(:,2),'.'); title('0-1');
@@ -473,11 +466,9 @@ plot(C3(:,1),C3(:,11),'.'); title('0-10');
 
 
 
-
-%*******ежаялоцг йлеамS циа окоус тоус сумтекестес окым тым ***************
-%****************** ейжымгсеым тоу ьгжиоу "8"******************************
-%**************** йаи елжамисг тым апотекеслатым***************************
-K=5;                                            %don't change Тhis!!!!!
+%***** kmeans for all the coefficients for pronouncing digit 8 ************
+%******* from all speakers and visualization of results *******************
+K=5;                                            %don't change this!!!!!
 figure('Position',[0 0 scrsz(3) scrsz(4)]); 
 opts3 = statset('Display','final');
 [idx3,ctrs3] = kmeans(C3,K,'distance','sqEuclidean',...
@@ -614,31 +605,31 @@ title('0-10');
 
 figure('Position',[0 0 scrsz(3) scrsz(4)]);  
 subplot(4,4,1);
-plot(idx3(1:I3(1)));                            %1Г ЕЙЖЧМГСГ
+plot(idx3(1:I3(1)));                            
 ylim([-1 K+1]);
 for i=1:(length(I3)-1)
     subplot(4,4,i+1);
-    plot(idx3(I3(i)+1 : I3(i+1)));              %УПОКОИПЕР ЕЙЖЫМГСЕИР
+    plot(idx3(I3(i)+1 : I3(i+1)));             
     ylim([-1 K+1]);
 end
 %**************************************************************************
 
 
 
-%*************** ежаялоцг KMEANS циа диажояеийа й *************************
-%******** йаи елжамисг йимгсгс тым пкаисиым сто выяо танеым ***************
+%******** kmeans for different K and visualization of windows *************
+%*************************** in class space *******************************
 clear idx2; clear opts2; clear ctrs2;
-K=8;                                            %АККАНТЕ АУТО ЦИА ДОЙИЛЕР
+K=8;                                            %you can change this
 opts3 = statset('Display','final');
 [idx3,ctrs3] = kmeans(C3,K,'distance','sqEuclidean',...
     'onlinephase','off','Replicates',20,'start','sample','Options',opts3);
 figure('Position',[0 0 scrsz(3) scrsz(4)]);  
 subplot(4,4,1);
-plot(idx3(1:I3(1)));                            %1Г ЕЙЖЧМГСГ
+plot(idx3(1:I3(1)));                            
 ylim([-1 K+1]);
 for i=1:(length(I3)-1)
     subplot(4,4,i+1);
-    plot(idx3(I3(i)+1 : I3(i+1)));              %УПОКОИПЕР ЕЙЖЫМГСЕИР
+    plot(idx3(I3(i)+1 : I3(i+1)));              
     ylim([-1 K+1]);
 end
 %**************************************************************************
