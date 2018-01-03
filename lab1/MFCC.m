@@ -1,55 +1,47 @@
 function [ C ] = MFCC( signal )
-%Δεχεται ενα σήμα signal και εξάγει τον πίνακα C οπου καθε γραμμη ειναι ο
-%DCT του λογαριθμου της ενεργειας ενος χρονικου παραθυρου που προκυπτει 
-%μετα απο το φιλτραρισμα του με φιλτρα mel.Η χρονικη διαρκεια του παραθυρου
-%ειναι 25ms και η επικαλυψη παραθυρων ειναι 10ms. Απο τον πινακα αυτο
-%κρατουνται οι 13 πρωτοι συντελεστες DCT
+%takes as input a signal and outputs matrix C wher each row is 
+%the dct transform of the logarithm of the enrergy of filtered 
+%window a mel filter. The interval of each window is 25ms and the
+%intersection is 10ms. From this matrix we keep the first 13 coefficients
 
-% Ουσιαστικα γινεται οτι παρουσιαστηκε στο 1ο μερος χωρις να υπολογιζουμε
-% οτι δεν χρειαζεται για τα επομενα βηματα της ασκσης
 
-% Διαβασμα εκφωνησης ενος ψηφιου προεπεξεργασια και υπολογισμος βασικων παραμετρων
+% read the pronouncing of a digint and preprocess for computing the basic parameters
 [x,Fs] = wavread(signal); 
-x1 = filter([1  +0.97],[1 0],x);        %προεμφαση
-Ts = 1/Fs;                              %υπολογισμος περιοδου δειγματοληψιας
-l = length(x1);                         %μηκος δινυσματος
-t = 0.025;                              %χρονικο διαστημα παραθυρων (sec)
-t_over = 0.010;                         %χρονικη επικαλυψη παραθυρων (sec)
-t_step = t-t_over;                      %χρονικο βήμα απο παραθυρο σε παραθυρο
-w = round(t/Ts)+1;                      %μεγεθος παραθύρου σε δείγματα
-step = round(t_step/Ts);                %μεγεθος βηματος σε δειγματα
-h = hamming(w);                         %δημιουργια hamming παραθυρου
+x1 = filter([1  +0.97],[1 0],x);        %proemphasis
+Ts = 1/Fs;                              %sampling period
+l = length(x1);                         %length of time vector
+t = 0.025;                              %length of each window (sec)
+t_over = 0.010;                         %intersection length of windows (sec)
+t_step = t-t_over;                      %timestep from window to window
+w = round(t/Ts)+1;                      %size of each window in samples
+step = round(t_step/Ts);                %size of step in samples
+h = hamming(w);                         %hamming window
 
 
-% Παραθύρωση και πολλαπλασιασμος με hamming παράθυρα
-k=0;                                    %σε αυτο το σταδιο δημιουργειται
-for i=1:step:l-w                        %ενας πινακας xs1 ο οποιος σε καθε
-    k=k+1;                              %γραμμη περιεχει ενα χρονικο παραθυρο
-    xs1(k,:)= h.*x1(i:i+w-1);           %πολλαπλασιασμένο με hamming
-end                                     %To πληθος των παραθυρων αποθηκευεται
-now = k;                                %στην now  (number of windows)
+% windowing with hamming
+k=0;                                    %we create a matrix
+for i=1:step:l-w                        %xs1 where each row
+    k=k+1;                              %contains a time window
+    xs1(k,:)= h.*x1(i:i+w-1);           %multiplied with hamming
+end                                     %The number of the windows is
+now = k;                                %stored in now (number of windows)
 
 
-% Δημιουργια συστοιχιας φιλτρων mel μετα απο κατασκευη συναρτησης melfilt
-max = 2595*(log10(1+Fs/1400));          %υπολογισμος μεγιστης συχνοτητας στο χωρο mel -> Fs/2 kHz στον γραμμικο χωρο
-m = linspace(0,max,26);                 %υπολογισμος κεντρικων συχνοτητων mel (υπολογιζω 2 παραπανω γιατι η 0 και η Fs/2 θα φυγουν)
-f = 700*(10.^(m/2595)-1);               %υπολογισμος κεντρικων συχνοτητων στον γραμμικο χωρο συχνοτητων
-f_lin = f(2:25);                        %κρατημα μονο των 24 ισομοιρασμενων που δεν ξεπερνουν τα ορια (οχι την μηδενικη και την Fs/2)
-spec = 2^nextpow2(w);                   %υπολογισμος του πληθους σημειων n για τον fft αργοτερα
-f_spec = round(((spec/2)*f_lin)/(Fs/2));%υπολογισμος διανυσματος συχνοτητων στον χωρο fft n σημειων (αρα η μεση n/2)
-H = melfilt(f_spec,spec);               %Με βαση ολα αυτα κατασκευασα μια συναρτηση melfilt που μου δημιουργει τα φιλτρα mel 
-                                        %σωστα στον γραμμικο χωρο συχνοτητων και αντιστοιχίζοντας την συχνοτητα
-                                        %Fs/2 στο n/2 σημειο, οπου n to πληθος των σημειων για κληση του fft ωστε
-                                        %να γινει σωστα ο πολλαπλασιασμος (βλεπε και melfilt), καθε γραμμη του πίνακα είναι ένα απο τα 24 φίλτρα
+% Create a sequence of mel filters 
+max = 2595*(log10(1+Fs/1400));          %compute maximum frequency in mel space (Fs/2 in linear)
+m = linspace(0,max,26);                 %compute central frequencies of each filter in mel space
+f = 700*(10.^(m/2595)-1);               %central frequencies in linear space
+f_lin = f(2:25);                        %keep the needed filters... discard 0 and Fs/2 centered
+spec = 2^nextpow2(w);                   %compute number of points for fft
+f_spec = round(((spec/2)*f_lin)/(Fs/2));%computer vector of frequencies in fft
+H = melfilt(f_spec,spec);               %function melfilt will create mel filters
                                         
-                                        
-% Υπολογισμός Ε,G,C και FFTs tων παραθύρων με κατασκευή συνάρτησεων
-                                        %Εισάγοντας τον πίνακα παραθύρων xs1, τον πίνακα φίτρων mel Η, το πλήθος
-E = energy(xs1,H,spec,now);             %των σημειων του fft spec και τον αριθμό παραθύρων στον χρόνο now
-                                        %υπολογιζω οτι χρειαζεται (βλεπε energy)
-G = log10(E(:,:));                      %υπολογισμος Gi (σε κάθε γραμμη εχω 24 συντελεστες)
-C = (dct(G(:,:)'))';                    %υπολογισμος DCT για κάθε γραμμη του G
-C = C(:,1:13);                          %κράτημα μονο των 13 πρώτων συντελεστών DCT
+
+% Compute E,G,C and FFTs of windows                                        
+E = energy(xs1,H,spec,now);             
+G = log10(E(:,:));                      
+C = (dct(G(:,:)'))';                    %dct
+C = C(:,1:13);                          %keep tht first 13 coefficients
 
 
 end
