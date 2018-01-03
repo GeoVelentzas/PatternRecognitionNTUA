@@ -1,5 +1,5 @@
 %******************* clear all and get scren size for plots  ********************************************************
-close all; clear all; clc;
+close all; clear all;
 scrsz = get(0,'ScreenSize');
 %********************************************************************************************************************
 
@@ -154,7 +154,7 @@ camlight;
 lighting gouraud;
 xlabel('No of window')
 ylabel('Frequency (Hz)');
-zlabel('log_1_0 (Å hat))');
+zlabel('log_1_0 (ï¿½ hat))');
 title('Energy Coefficients')
 
 

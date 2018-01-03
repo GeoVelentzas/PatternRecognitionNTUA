@@ -1,5 +1,5 @@
 %*********** clear all and get screensize *********************************
-clear all; close all; clc;
+clear all; close all;
 scrsz = get(0,'ScreenSize');
 %**************************************************************************
 
