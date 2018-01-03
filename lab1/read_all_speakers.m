@@ -1,9 +1,8 @@
 function [ C_all , I ] = read_all_speakers( d )
-%Σ'αυτη τη συναρτηση περναμε σε εναν πινακα με 13 στηλες τους MFCC
-%συντελεστες για καθε χρονικο παραθυρο του καθε ολμιλητη και στο array Ι
-%τις γραμμες του C_all για τις οποιες εχουμε αλλαγη εκφωνητη. Σαν ορισμα
-%δεχομαστε την τιμη d απο 1-9 που αντιστοιχει στο ψηφιο του οποιου τις
-%εκφωνησεις θελουμε να διαβασουμε.
+%input: a digit 0-9
+%C_all is a matrix with 13 columns where each column represents the mfcc
+%for every time window of a speaker. I represents the rows of C_all 
+%where a change of speaker occurs.
 
 if d==1
     C1 = MFCC('one1.wav');
