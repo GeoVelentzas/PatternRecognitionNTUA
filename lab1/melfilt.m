@@ -1,7 +1,6 @@
 function [ H ] = melfilt( f_spec ,spec )
-%Dimiourgia systixias trigvnikwn filtrwn pou isapexoun ston xwro mel
-%kai einai isa se plithos me to periexomeno twn kentrikwn syxnothtwn
-%tis f_spec. To spec dilwnei to plithos twn simeiwn sto xwro fourier
+%create sequence of triangular filters equally spaced in mel space
+%as many as the length of f_spec. spec is the number of fft points
 
 N = length(f_spec);
 H = zeros(N,spec);
