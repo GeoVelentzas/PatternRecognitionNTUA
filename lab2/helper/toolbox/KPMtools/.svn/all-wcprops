@@ -1,0 +1,1073 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools
+END
+rectintSparse.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rectintSparse.m
+END
+normalise.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/normalise.m
+END
+process_options.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/process_options.m
+END
+partition_matrix_vec.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/partition_matrix_vec.m
+END
+myrand.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/myrand.m
+END
+set_xtick_label.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/set_xtick_label.m
+END
+set_xtick_label_demo.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/set_xtick_label_demo.m
+END
+compute_counts.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/compute_counts.m
+END
+plotcov3.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotcov3.m
+END
+xticklabel_rotate90.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/xticklabel_rotate90.m
+END
+num2strcell.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/num2strcell.m
+END
+myones.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/myones.m
+END
+optimalMatchingTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/optimalMatchingTest.m
+END
+asdemo.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/asdemo.html
+END
+zipsave.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/zipsave.m
+END
+subv2ind.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/subv2ind.c
+END
+logsumexp.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/logsumexp.m
+END
+logb.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/logb.m
+END
+rotate_xlabel.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rotate_xlabel.m
+END
+minimize_ras.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/minimize_ras.m
+END
+plotBox.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotBox.m
+END
+nonmaxsup.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/nonmaxsup.m
+END
+subv2ind.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/subv2ind.m
+END
+sprintf_intvec.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/sprintf_intvec.m
+END
+strmatch_multi.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/strmatch_multi.m
+END
+assert.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/assert.m
+END
+centeringMatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/centeringMatrix.m
+END
+unaryEncoding.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/unaryEncoding.m
+END
+img2eps.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/img2eps.m
+END
+safeStr.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/safeStr.m
+END
+nrows.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/nrows.m
+END
+repmatC.dll
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/repmatC.dll
+END
+hungarian.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/hungarian.m
+END
+image_rgb.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/image_rgb.m
+END
+rnd_partition.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rnd_partition.m
+END
+mexutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mexutil.c
+END
+mkdirKPM.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mkdirKPM.m
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/README.txt
+END
+normaliseC.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/normaliseC.c
+END
+mexutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mexutil.h
+END
+ind2subv.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/ind2subv.c
+END
+mysymsetdiff.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mysymsetdiff.m
+END
+splitLongSeqIntoManyShort.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/splitLongSeqIntoManyShort.m
+END
+initFigures.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/initFigures.m
+END
+sort_evec.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/sort_evec.m
+END
+rectintLoopC.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rectintLoopC.c
+END
+ind2subv.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/ind2subv.m
+END
+marg_table.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/marg_table.m
+END
+approx_unique.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/approx_unique.m
+END
+chi2inv.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/chi2inv.m
+END
+plotgauss2d_old.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotgauss2d_old.m
+END
+myintersect.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/myintersect.m
+END
+plotgauss2d.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotgauss2d.m
+END
+hsvKPM.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/hsvKPM.m
+END
+marginalize_table.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/marginalize_table.m
+END
+conf2mahal.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/conf2mahal.m
+END
+draw_ellipse.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/draw_ellipse.m
+END
+normaliseC.dll
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/normaliseC.dll
+END
+checkgrad.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/checkgrad.m
+END
+rectintC.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rectintC.m
+END
+isposdef.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/isposdef.m
+END
+repmatC.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/repmatC.c
+END
+plot_polygon.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plot_polygon.m
+END
+pick.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/pick.m
+END
+colmult.mexglx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/colmult.mexglx
+END
+cell2matPad.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/cell2matPad.m
+END
+asort.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/asort.m
+END
+plot_ellipse.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plot_ellipse.m
+END
+myunion.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/myunion.m
+END
+genpathKPM.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/genpathKPM.m
+END
+bipartiteMatchingIntProg.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/bipartiteMatchingIntProg.m
+END
+hash_del.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/hash_del.m
+END
+sqdist.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/sqdist.m
+END
+myismember.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/myismember.m
+END
+subsets1.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/subsets1.m
+END
+mahal2conf.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mahal2conf.m
+END
+axis_pct.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/axis_pct.m
+END
+mysubset.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mysubset.m
+END
+argmax.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/argmax.m
+END
+sampleUniformInts.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/sampleUniformInts.m
+END
+mysize.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mysize.m
+END
+is_psd.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/is_psd.m
+END
+div.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/div.m
+END
+bipartiteMatchingHungarian.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/bipartiteMatchingHungarian.m
+END
+hash_add.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/hash_add.m
+END
+installC_KPMtools.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/installC_KPMtools.m
+END
+montageKPM.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/montageKPM.m
+END
+zipload.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/zipload.m
+END
+bipartiteMatchingDemo.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/bipartiteMatchingDemo.m
+END
+assign_cols.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/assign_cols.m
+END
+factorial.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/factorial.m
+END
+logsum_test.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/logsum_test.m
+END
+colmult.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/colmult.c
+END
+mk_multi_index.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mk_multi_index.m
+END
+asdemo.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/asdemo.m
+END
+logsumexpv.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/logsumexpv.m
+END
+suptitle.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/suptitle.m
+END
+hash_lookup.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/hash_lookup.m
+END
+ncols.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/ncols.m
+END
+draw_circle.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/draw_circle.m
+END
+softeye.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/softeye.m
+END
+plotROC.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotROC.m
+END
+mult_by_table.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mult_by_table.m
+END
+montageKPM2.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/montageKPM2.m
+END
+checkpsd.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/checkpsd.m
+END
+rectintLoopC.dll
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rectintLoopC.dll
+END
+strsplit.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/strsplit.m
+END
+rgb2grayKPM.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rgb2grayKPM.m
+END
+pca_netlab.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/pca_netlab.m
+END
+mysetdiff.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mysetdiff.m
+END
+isemptycell.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/isemptycell.m
+END
+rand_psd.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rand_psd.m
+END
+mk_stochastic.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/mk_stochastic.m
+END
+is_stochastic.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/is_stochastic.m
+END
+normalize.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/normalize.m
+END
+entropy.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/entropy.m
+END
+rectintSparseLoopC.dll
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rectintSparseLoopC.dll
+END
+repmatC.mexglx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/repmatC.mexglx
+END
+sample_discrete.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/sample_discrete.m
+END
+logsum.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/logsum.m
+END
+exportfig.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/exportfig.m
+END
+pca_kpm.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/pca_kpm.m
+END
+fullfileKPM.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/fullfileKPM.m
+END
+subplot2.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/subplot2.m
+END
+find_equiv_posns.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/find_equiv_posns.m
+END
+max_mult.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/max_mult.c
+END
+filepartsLast.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/filepartsLast.m
+END
+polygon_area.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/polygon_area.m
+END
+nchoose2.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/nchoose2.m
+END
+choose.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/choose.m
+END
+setdiag.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/setdiag.m
+END
+cell2num.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/cell2num.m
+END
+myplot.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/myplot.m
+END
+extend_domain_table.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/extend_domain_table.m
+END
+max_mult.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/max_mult.m
+END
+dirKPM.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/dirKPM.m
+END
+strmatch_substr.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/strmatch_substr.m
+END
+plotROCkpm.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotROCkpm.m
+END
+block.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/block.m
+END
+draw_ellipse_axes.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/draw_ellipse_axes.m
+END
+em_converged.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/em_converged.m
+END
+junk.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/junk.c
+END
+myrepmat.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/myrepmat.m
+END
+plotColors.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotColors.m
+END
+plot_matrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plot_matrix.m
+END
+bipartiteMatchingDemoPlot.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/bipartiteMatchingDemoPlot.m
+END
+previewfig.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/previewfig.m
+END
+rosenbrock.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rosenbrock.m
+END
+plotcov2.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotcov2.m
+END
+rectintSparseLoopC.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rectintSparseLoopC.c
+END
+wrap.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/wrap.m
+END
+plot_axis_thru_origin.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plot_axis_thru_origin.m
+END
+rectintLoopC.mexglx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rectintLoopC.mexglx
+END
+sorttemp.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/sorttemp.m
+END
+logdet.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/logdet.m
+END
+loadcell.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/loadcell.m
+END
+optimalMatching.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/optimalMatching.m
+END
+montageKPM3.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/montageKPM3.m
+END
+imresizeAspect.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/imresizeAspect.m
+END
+subsets.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/subsets.m
+END
+rectintSparseC.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/rectintSparseC.m
+END
+sumv.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/sumv.m
+END
+myreshape.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/myreshape.m
+END
+matprint.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/matprint.m
+END
+approxeq.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/approxeq.m
+END
+partitionData.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/partitionData.m
+END
+subsetsFixedSize.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/subsetsFixedSize.m
+END
+collapse_mog.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/collapse_mog.m
+END
+plotgauss1d.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotgauss1d.m
+END
+polygon_intersect.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/polygon_intersect.m
+END
+cross_entropy.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/cross_entropy.m
+END
+subplot3.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/subplot3.m
+END
+assignEdgeNums.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/assignEdgeNums.m
+END
+argmin.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/argmin.m
+END
+polygon_centroid.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/polygon_centroid.m
+END
+logsum_simple.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/logsum_simple.m
+END
+minimize.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/minimize.m
+END
+plotcov2New.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/projects/!svn/ver/3789/sthPhD/Matlab_Toolboxs/CNA-HMMer-v0.1/KPMtools/plotcov2New.m
+END
