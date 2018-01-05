@@ -1,0 +1,7 @@
+for sign = 1:30
+    D = [FT{sign}{1,2} FT{sign}{1,3} FT{sign}{1,4} FT{sign}{1,5} FT{sign}{1,6} FT{sign}{1,7}];
+    Seg = [IS{sign}{1,1} IS{sign}{1,2}];
+    for i =1:size(Seg,1)
+        DATA{sign}{1,i} = D(Seg(i,1):Seg(i,2),:);
+    end
+end
